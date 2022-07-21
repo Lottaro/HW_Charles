@@ -48,5 +48,5 @@ Task:
 ]
 ```
 Переходим в *Charles*. В меню нажимаем *Tools*, далее из списка выбираем *Rewrite* и откроется *Rewrite settings*  
-  ![Ex_1 1](https://user-images.githubusercontent.com/51506930/180311420-12d750dd-a977-4df1-95e2-28c77882727f.jpg)  
+![Ex_1 1](https://user-images.githubusercontent.com/51506930/180311980-6b0fd0e7-80c5-4b23-85ec-1318749801e5.jpg)  
 Ставим галочку в *Enable Rewrite* и нажимаем кнопку *Add*, которая распологается ниже  
