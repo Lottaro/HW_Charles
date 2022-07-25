@@ -114,4 +114,18 @@ Task:
 Ставим галочку в чекбокс *Request*  
  Нажимаем *Ok*  
 ![Ex_1 3 Breakpoint](https://user-images.githubusercontent.com/51506930/180839158-397dfcf4-fb57-43e3-91d0-70af1315f74c.jpg)  
-
+  
+Заходим в **Postman**, выбираем **EP_1_1** из домашней работы **HW_Postman_1** и отправляем запрос нажав *Send*  
+В *Body* идет ожидание запроса так как **Charles** перехватил запрос. В **Charles** открывается окно *Breakpoints* в котором мы открываем вкладку *Edit Request*  
+![Ex_1 4 Breakpoint](https://user-images.githubusercontent.com/51506930/180840024-a6891902-56ac-4448-8373-dd09bd8a9cea.jpg)  
+  
+В этом окне вы виде уже измененный запрос  
+![Ex_1 5 Breakpoint](https://user-images.githubusercontent.com/51506930/180840316-5cbcc93f-f29d-461a-802f-22d9439db18e.jpg)  
+  
+Нажимаем *Execute* отправляя запрос далее. В **Postman** в *Body* приходит ответ:  
+```json
+[
+    "str",
+    "int"
+]
+```  
