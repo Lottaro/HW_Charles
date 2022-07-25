@@ -51,16 +51,25 @@ Task:
 ![Ex_1 1](https://user-images.githubusercontent.com/51506930/180311980-6b0fd0e7-80c5-4b23-85ec-1318749801e5.jpg)  
 Ставим галочку в *Enable Rewrite* и нажимаем кнопку *Add*, которая распологается ниже  
 ![Ex_1 2](https://user-images.githubusercontent.com/51506930/180829543-7c61cc77-3f83-4f9e-8a44-12c7dfdae7bd.jpg)  
-Далее в правой верхней части окна нажимаем кнопку *Add*  
+Далее в правой верхней части окна нажимаем кнопку *Add*, откроется окно *Edit Location*  
 ![Ex_1 3](https://user-images.githubusercontent.com/51506930/180830812-853b2193-e4eb-414e-a546-92217d8ed553.jpg)  
 Вписываем данные:  
-*Protocol*: http  
-*Host*: 162.55.220.72  
-*Port*: 5005  
-*Path*: /get_method  
+*Protocol*: **http**  
+*Host*: **162.55.220.72**  
+*Port*: **5005**  
+*Path*: **/get_method**  
  Нажимаем *Ok*  
 ![Ex_1 4](https://user-images.githubusercontent.com/51506930/180830942-d4c13bab-8052-4c0a-8e85-b089b8349790.jpg)  
-Жмем правой нижней части окна *Rewrite settings* нажимаем кнопку *Add*  
+Жмем правой нижней части окна *Rewrite settings* нажимаем кнопку *Add*, откроется окно *Rewrite Rule*  
 ![Ex_1 5](https://user-images.githubusercontent.com/51506930/180831686-7bfe72a9-8863-410a-9796-2536975baf10.jpg)  
-
+В графе *Type* выбираем **Modify Query Param**  
+В области *Match* вписываем данные:
+  *Name*: **name**  
+  *Value*: **Sergey**  
+В области *Replace* вписываем данные:  
+  *Name*: **name**  
+  *Value*: **str**  
 Нажимаем *Ok*  
+![Ex_1 6](https://user-images.githubusercontent.com/51506930/180833190-b02b1492-adcf-4b9f-a73e-50b71ee988b9.jpg)
+
+  
