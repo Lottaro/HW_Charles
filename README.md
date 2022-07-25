@@ -57,5 +57,5 @@ Task:
 *Protocol*: http  
 *Host*: 162.55.220.72  
 *Port*: 5005  
-*Path*: /get_method
+*Path*: /get_method  
 ![Ex_1 4](https://user-images.githubusercontent.com/51506930/180830942-d4c13bab-8052-4c0a-8e85-b089b8349790.jpg)
