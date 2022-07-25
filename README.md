@@ -138,9 +138,9 @@ Task:
 Сделать и в Rewrite, и в BreakPoint (можно отключить чтобы не стопило на каждом запросе)
  ⁃ Подменить body в Charles так чтобы в запросе ушла salary которую вы вписали в Postman, а в u_salary_1_5_year цифра вернулась меньше оригинальной из запроса.
 ```  
- Заходим в **Postman**, выбираем **EP_1_1** из домашней работы **HW_Postman_1** и отправляем запрос нажав *Send*  
+ Заходим в **Postman**, выбираем **EP_1_2** из домашней работы **HW_Postman_1** и отправляем запрос нажав *Send*  
 В *Body* приходит ответ  
-![Ex_1 0 Postman](https://user-images.githubusercontent.com/51506930/180841877-28d57eff-34e9-45df-b469-68ad17bdcff9.jpg)  
+![Ex_2 1 Postman](https://user-images.githubusercontent.com/51506930/180856769-6a267736-15ef-4656-a8ea-7c40e4b084b0.jpg)  
   
 Переходим в *Charles*. В меню нажимаем *Tools*, далее из списка выбираем *Rewrite* и откроется *Rewrite settings*  
 ![Ex_1 1](https://user-images.githubusercontent.com/51506930/180850847-6885bfab-4bb0-4ec4-90b7-7ae9efade953.jpg)  
@@ -162,3 +162,22 @@ Task:
 Жмем в правой нижней части окна *Rewrite settings* кнопку *Add*, откроется окно *Rewrite Rule*  
 ![Ex_1 5](https://user-images.githubusercontent.com/51506930/180831686-7bfe72a9-8863-410a-9796-2536975baf10.jpg)  
    
+В графе *Type* выбираем **Body**  
+В области *Match* вписываем данные:  
+  *Value*: **60000**  
+В области *Replace* вписываем данные:  
+  *Value*: **50000**  
+Нажимаем *Ok*  
+![Ex_2 6 Rewrite](https://user-images.githubusercontent.com/51506930/180858408-a2007d9f-de29-4fd4-98d6-44d20c31c635.jpg)  
+  
+  Заходим в **Postman**, выбираем **EP_1_1** из домашней работы **HW_Postman_1** и отправляем запрос нажав *Send*  
+В *Body* приходит ответ:  
+![Ex_2 2 Postman](https://user-images.githubusercontent.com/51506930/180859097-51da8dd8-417b-46d0-85ad-1779f5cbb51a.jpg)  
+  
+### Функция **BreakPoint**
+В *Charles*, в меню нажимаем *Proxy*, далее из списка выбираем *Breakpoint Settings* и откроется *Breakpoint Settings*  
+![Ex_1 1 Breakpoint](https://user-images.githubusercontent.com/51506930/180837332-2fc138de-0926-48cd-aafc-aff63ca12a6b.jpg)  
+  
+Ставим галочку в *Enable Breakpoint* и нажимаем кнопку *Add*, которая распологается ниже, откроется окно *Edit Breakpoint*  
+![Ex_1 2 Breakpoint](https://user-images.githubusercontent.com/51506930/180837938-70a2b17f-ccbd-4588-bde4-1b8bc8002508.jpg)  
+  
