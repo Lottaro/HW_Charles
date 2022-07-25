@@ -98,6 +98,11 @@ Task:
 ]
 ```
   
-  ***
-  
 ### Функция **BreakPoint**
+В *Charles*, в меню нажимаем *Proxy*, далее из списка выбираем *Breakpoint Settings* и откроется *Breakpoint Settings*  
+![Ex_1 1 Breakpoint](https://user-images.githubusercontent.com/51506930/180837332-2fc138de-0926-48cd-aafc-aff63ca12a6b.jpg)  
+  
+Ставим галочку в *Enable Rewrite* и нажимаем кнопку *Add*, которая распологается ниже  
+![Ex_1 2 Breakpoint](https://user-images.githubusercontent.com/51506930/180837938-70a2b17f-ccbd-4588-bde4-1b8bc8002508.jpg)
+ 
+  
