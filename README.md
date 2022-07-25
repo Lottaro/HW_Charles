@@ -102,7 +102,16 @@ Task:
 В *Charles*, в меню нажимаем *Proxy*, далее из списка выбираем *Breakpoint Settings* и откроется *Breakpoint Settings*  
 ![Ex_1 1 Breakpoint](https://user-images.githubusercontent.com/51506930/180837332-2fc138de-0926-48cd-aafc-aff63ca12a6b.jpg)  
   
-Ставим галочку в *Enable Rewrite* и нажимаем кнопку *Add*, которая распологается ниже  
+Ставим галочку в *Enable Breakpoint* и нажимаем кнопку *Add*, которая распологается ниже, откроется окно *Edit Breakpoint*  
 ![Ex_1 2 Breakpoint](https://user-images.githubusercontent.com/51506930/180837938-70a2b17f-ccbd-4588-bde4-1b8bc8002508.jpg)
- 
   
+Вписываем данные:  
+*Scheme*: **GET**  
+*Protocol*: **http**  
+*Host*: **162.55.220.72**  
+*Port*: **5005**  
+*Path*: **/get_method**  
+Ставим галочку в чекбокс *Request*  
+ Нажимаем *Ok*  
+![Ex_1 3 Breakpoint](https://user-images.githubusercontent.com/51506930/180839158-397dfcf4-fb57-43e3-91d0-70af1315f74c.jpg)  
+
