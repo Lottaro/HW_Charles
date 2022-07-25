@@ -190,4 +190,13 @@ Task:
 Ставим галочку в чекбокс *Request*  
 Нажимаем *Ok*  
 ![Ex_2 3 Breakpoint](https://user-images.githubusercontent.com/51506930/180861355-fa3c2b1b-5ae8-4e73-8cd5-76b2fc6529e6.jpg)  
-
+  
+Заходим в **Postman**, выбираем **EP_1_1** из домашней работы **HW_Postman_1** и отправляем запрос нажав *Send*  
+В *Body* идет ожидание запроса так как **Charles** перехватил запрос. В **Charles** открывается окно *Breakpoints* в котором мы видим изменения *Body*  
+![Ex_2 4 Breakpoint](https://user-images.githubusercontent.com/51506930/180866193-298542a0-de8f-48c9-9461-a1a4bda87e8f.jpg)  
+  
+Нажимаем *Execute* отправляя запрос далее. В **Postman** в *Body* приходит ответ  
+![Ex_2 2 Postman](https://user-images.githubusercontent.com/51506930/180866341-4afddc54-60b7-46c5-b150-67459c4853c6.jpg)  
+  
+  ***  
+  
