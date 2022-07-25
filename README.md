@@ -103,7 +103,7 @@ Task:
 *Port*: **5005**  
 *Path*: **/get_method**  
 Ставим галочку в чекбокс *Request*  
- Нажимаем *Ok*  
+Нажимаем *Ok*  
 ![Ex_1 3 Breakpoint](https://user-images.githubusercontent.com/51506930/180839158-397dfcf4-fb57-43e3-91d0-70af1315f74c.jpg)  
   
 Заходим в **Postman**, выбираем **EP_1_1** из домашней работы **HW_Postman_1** и отправляем запрос нажав *Send*  
@@ -179,5 +179,15 @@ Task:
 ![Ex_1 1 Breakpoint](https://user-images.githubusercontent.com/51506930/180837332-2fc138de-0926-48cd-aafc-aff63ca12a6b.jpg)  
   
 Ставим галочку в *Enable Breakpoint* и нажимаем кнопку *Add*, которая распологается ниже, откроется окно *Edit Breakpoint*  
-![Ex_1 2 Breakpoint](https://user-images.githubusercontent.com/51506930/180837938-70a2b17f-ccbd-4588-bde4-1b8bc8002508.jpg)  
+![Ex_2 2 Breakpoint](https://user-images.githubusercontent.com/51506930/180860768-c3dfa969-f6ac-4e6a-b928-ecf8ce91b0a0.jpg)  
   
+Вписываем данные:  
+*Scheme*: **POST**  
+*Protocol*: **http**  
+*Host*: **162.55.220.72**  
+*Port*: **5005**  
+*Path*: **/user_info_3**  
+Ставим галочку в чекбокс *Request*  
+Нажимаем *Ok*  
+![Ex_2 3 Breakpoint](https://user-images.githubusercontent.com/51506930/180861355-fa3c2b1b-5ae8-4e73-8cd5-76b2fc6529e6.jpg)  
+
