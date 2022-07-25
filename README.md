@@ -42,12 +42,8 @@ Task:
 ```
 Заходим в **Postman**, выбираем **EP_1_1** из домашней работы **HW_Postman_1** и отправляем запрос нажав *Send*  
 В *Body* приходит ответ:
-```json
-[
-    "Sergey",
-    "36"
-]
-```
+![Ex_1 0 Postman](https://user-images.githubusercontent.com/51506930/180841877-28d57eff-34e9-45df-b469-68ad17bdcff9.jpg)  
+  
 Переходим в *Charles*. В меню нажимаем *Tools*, далее из списка выбираем *Rewrite* и откроется *Rewrite settings*  
 ![Ex_1 1](https://user-images.githubusercontent.com/51506930/180311980-6b0fd0e7-80c5-4b23-85ec-1318749801e5.jpg)  
   
@@ -91,19 +87,14 @@ Task:
 
 Заходим в **Postman**, выбираем **EP_1_1** из домашней работы **HW_Postman_1** и отправляем запрос нажав *Send*  
 В *Body* приходит ответ:  
-```json
-[
-    "str",
-    "int"
-]
-```
+![Ex_1 1 Postman](https://user-images.githubusercontent.com/51506930/180841369-d01c5ea5-5a20-4cb1-b6c3-7680e1e798f5.jpg)
   
 ### Функция **BreakPoint**
 В *Charles*, в меню нажимаем *Proxy*, далее из списка выбираем *Breakpoint Settings* и откроется *Breakpoint Settings*  
 ![Ex_1 1 Breakpoint](https://user-images.githubusercontent.com/51506930/180837332-2fc138de-0926-48cd-aafc-aff63ca12a6b.jpg)  
   
 Ставим галочку в *Enable Breakpoint* и нажимаем кнопку *Add*, которая распологается ниже, откроется окно *Edit Breakpoint*  
-![Ex_1 2 Breakpoint](https://user-images.githubusercontent.com/51506930/180837938-70a2b17f-ccbd-4588-bde4-1b8bc8002508.jpg)
+![Ex_1 2 Breakpoint](https://user-images.githubusercontent.com/51506930/180837938-70a2b17f-ccbd-4588-bde4-1b8bc8002508.jpg)  
   
 Вписываем данные:  
 *Scheme*: **GET**  
@@ -123,9 +114,5 @@ Task:
 ![Ex_1 5 Breakpoint](https://user-images.githubusercontent.com/51506930/180840316-5cbcc93f-f29d-461a-802f-22d9439db18e.jpg)  
   
 Нажимаем *Execute* отправляя запрос далее. В **Postman** в *Body* приходит ответ:  
-```json
-[
-    "str",
-    "int"
-]
-```  
+![Ex_1 1 Postman](https://user-images.githubusercontent.com/51506930/180841451-a850cbbe-9f1e-4971-b55d-26023be529d5.jpg)  
+
