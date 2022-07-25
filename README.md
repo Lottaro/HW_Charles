@@ -41,7 +41,7 @@ Task:
  ⁃ Подменить url в Charles чтобы в запросе ушло имя которые вы вписали в Postman, а вернулось то, которое вы подставили в Charles.
 ```
 Заходим в **Postman**, выбираем **EP_1_1** из домашней работы **HW_Postman_1** и отправляем запрос нажав *Send*  
-В *Body* приходит ответ:  
+В *Body* приходит ответ  
 ![Ex_1 0 Postman](https://user-images.githubusercontent.com/51506930/180841877-28d57eff-34e9-45df-b469-68ad17bdcff9.jpg)  
   
 Переходим в *Charles*. В меню нажимаем *Tools*, далее из списка выбираем *Rewrite* и откроется *Rewrite settings*  
@@ -113,7 +113,7 @@ Task:
 В этом окне видим измененный запрос  
 ![Ex_1 5 Breakpoint](https://user-images.githubusercontent.com/51506930/180854087-349baea3-b3e6-49d1-8a45-b74d56455dca.jpg)  
   
-Нажимаем *Execute* отправляя запрос далее. В **Postman** в *Body* приходит ответ:  
+Нажимаем *Execute* отправляя запрос далее. В **Postman** в *Body* приходит ответ  
 ![Ex_1 1 Postman](https://user-images.githubusercontent.com/51506930/180854012-b208daea-27dc-458f-8410-cabd3f285f15.jpg)  
   
   ***  
