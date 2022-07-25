@@ -2,7 +2,7 @@
   
 [Ex_0](#0)  
 [Ex_1](#1)  
-[Ex_2]  
+[Ex_2](#2)  
 [Ex_3]  
 [Ex_4]  
 [Ex_5]  
@@ -110,9 +110,32 @@ Task:
 В *Body* идет ожидание запроса так как **Charles** перехватил запрос. В **Charles** открывается окно *Breakpoints* в котором мы открываем вкладку *Edit Request*  
 ![Ex_1 4 Breakpoint](https://user-images.githubusercontent.com/51506930/180840024-a6891902-56ac-4448-8373-dd09bd8a9cea.jpg)  
   
-В этом окне вы виде уже измененный запрос  
+В этом окне видим уже измененный запрос  
 ![Ex_1 5 Breakpoint](https://user-images.githubusercontent.com/51506930/180840316-5cbcc93f-f29d-461a-802f-22d9439db18e.jpg)  
   
 Нажимаем *Execute* отправляя запрос далее. В **Postman** в *Body* приходит ответ:  
 ![Ex_1 1 Postman](https://user-images.githubusercontent.com/51506930/180841451-a850cbbe-9f1e-4971-b55d-26023be529d5.jpg)  
 
+  ***  
+  
+## **Charles Ex_2**<a name="2"><a>  
+```
+Method: POST
+EndPoint: /user_info_3
+request form data: 
+ name: str
+ age: int
+ salary: int
+
+response: 
+{'name': name,
+          'age': age,
+          'salary': salary,
+          'family': {'children': [['Alex', 24], ['Kate', 12]],
+                     'u_salary_1_5_year': salary * 4}}
+
+Task:
+Сделать и в Rewrite, и в BreakPoint (можно отключить чтобы не стопило на каждом запросе)
+ ⁃ Подменить body в Charles так чтобы в запросе ушла salary которую вы вписали в Postman, а в u_salary_1_5_year цифра вернулась меньше оригинальной из запроса.
+```  
+  
