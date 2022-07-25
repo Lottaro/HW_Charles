@@ -45,7 +45,7 @@ Task:
 ![Ex_1 0 Postman](https://user-images.githubusercontent.com/51506930/180841877-28d57eff-34e9-45df-b469-68ad17bdcff9.jpg)  
   
 Переходим в *Charles*. В меню нажимаем *Tools*, далее из списка выбираем *Rewrite* и откроется *Rewrite settings*  
-![Ex_1 1](https://user-images.githubusercontent.com/51506930/180311980-6b0fd0e7-80c5-4b23-85ec-1318749801e5.jpg)  
+![Ex_1 1](https://user-images.githubusercontent.com/51506930/180850847-6885bfab-4bb0-4ec4-90b7-7ae9efade953.jpg)  
   
 Ставим галочку в *Enable Rewrite* и нажимаем кнопку *Add*, которая распологается ниже  
 ![Ex_1 2](https://user-images.githubusercontent.com/51506930/180829543-7c61cc77-3f83-4f9e-8a44-12c7dfdae7bd.jpg)  
