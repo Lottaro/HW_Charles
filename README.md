@@ -108,14 +108,14 @@ Task:
   
 Заходим в **Postman**, выбираем **EP_1_1** из домашней работы **HW_Postman_1** и отправляем запрос нажав *Send*  
 В *Body* идет ожидание запроса так как **Charles** перехватил запрос. В **Charles** открывается окно *Breakpoints* в котором мы открываем вкладку *Edit Request*  
-![Ex_1 4 Breakpoint](https://user-images.githubusercontent.com/51506930/180840024-a6891902-56ac-4448-8373-dd09bd8a9cea.jpg)  
+![Ex_1 4 Breakpoint](https://user-images.githubusercontent.com/51506930/180854149-b50d01ed-2195-4868-a3a5-cb27b843170a.jpg)  
   
-В этом окне видим уже измененный запрос  
-![Ex_1 5 Breakpoint](https://user-images.githubusercontent.com/51506930/180840316-5cbcc93f-f29d-461a-802f-22d9439db18e.jpg)  
+В этом окне видим измененный запрос  
+![Ex_1 5 Breakpoint](https://user-images.githubusercontent.com/51506930/180854087-349baea3-b3e6-49d1-8a45-b74d56455dca.jpg)  
   
 Нажимаем *Execute* отправляя запрос далее. В **Postman** в *Body* приходит ответ:  
-![Ex_1 1 Postman](https://user-images.githubusercontent.com/51506930/180841451-a850cbbe-9f1e-4971-b55d-26023be529d5.jpg)  
-
+![Ex_1 1 Postman](https://user-images.githubusercontent.com/51506930/180854012-b208daea-27dc-458f-8410-cabd3f285f15.jpg)  
+  
   ***  
   
 ## **Charles Ex_2**<a name="2"><a>  
