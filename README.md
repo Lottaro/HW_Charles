@@ -138,4 +138,27 @@ Task:
 Сделать и в Rewrite, и в BreakPoint (можно отключить чтобы не стопило на каждом запросе)
  ⁃ Подменить body в Charles так чтобы в запросе ушла salary которую вы вписали в Postman, а в u_salary_1_5_year цифра вернулась меньше оригинальной из запроса.
 ```  
+ Заходим в **Postman**, выбираем **EP_1_1** из домашней работы **HW_Postman_1** и отправляем запрос нажав *Send*  
+В *Body* приходит ответ  
+![Ex_1 0 Postman](https://user-images.githubusercontent.com/51506930/180841877-28d57eff-34e9-45df-b469-68ad17bdcff9.jpg)  
   
+Переходим в *Charles*. В меню нажимаем *Tools*, далее из списка выбираем *Rewrite* и откроется *Rewrite settings*  
+![Ex_1 1](https://user-images.githubusercontent.com/51506930/180850847-6885bfab-4bb0-4ec4-90b7-7ae9efade953.jpg)  
+  
+Ставим галочку в *Enable Rewrite* и нажимаем кнопку *Add*, которая распологается ниже  
+![Ex_1 2](https://user-images.githubusercontent.com/51506930/180829543-7c61cc77-3f83-4f9e-8a44-12c7dfdae7bd.jpg)  
+  
+Далее в правой верхней части окна нажимаем кнопку *Add*, откроется окно *Edit Location*  
+![Ex_1 3](https://user-images.githubusercontent.com/51506930/180830812-853b2193-e4eb-414e-a546-92217d8ed553.jpg)  
+  
+Вписываем данные:  
+*Protocol*: **http**  
+*Host*: **162.55.220.72**  
+*Port*: **5005**  
+*Path*: **/get_method**  
+ Нажимаем *Ok*  
+![Ex_1 4](https://user-images.githubusercontent.com/51506930/180830942-d4c13bab-8052-4c0a-8e85-b089b8349790.jpg)  
+  
+Жмем в правой нижней части окна *Rewrite settings* кнопку *Add*, откроется окно *Rewrite Rule*  
+![Ex_1 5](https://user-images.githubusercontent.com/51506930/180831686-7bfe72a9-8863-410a-9796-2536975baf10.jpg)  
+   
