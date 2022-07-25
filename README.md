@@ -50,3 +50,12 @@ Task:
 Переходим в *Charles*. В меню нажимаем *Tools*, далее из списка выбираем *Rewrite* и откроется *Rewrite settings*  
 ![Ex_1 1](https://user-images.githubusercontent.com/51506930/180311980-6b0fd0e7-80c5-4b23-85ec-1318749801e5.jpg)  
 Ставим галочку в *Enable Rewrite* и нажимаем кнопку *Add*, которая распологается ниже  
+![Ex_1 2](https://user-images.githubusercontent.com/51506930/180829543-7c61cc77-3f83-4f9e-8a44-12c7dfdae7bd.jpg)
+Далее в правой верхней части окна нажимаем кнопку *Add*  
+![Ex_1 3](https://user-images.githubusercontent.com/51506930/180830812-853b2193-e4eb-414e-a546-92217d8ed553.jpg)  
+Вписываем данные:  
+*Protocol*: http  
+*Host*: 162.55.220.72  
+*Port*: 5005  
+*Path*: /get_method
+![Ex_1 4](https://user-images.githubusercontent.com/51506930/180830942-d4c13bab-8052-4c0a-8e85-b089b8349790.jpg)
