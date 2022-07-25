@@ -70,10 +70,10 @@ Task:
   *Value*: **Sergey**  
 В области *Replace* вписываем данные:  
   *Name*: **name**  
-  *Value*: **str**  
+  *Value*: **Lottaro**  
 Нажимаем *Ok*  
-![Ex_1 6](https://user-images.githubusercontent.com/51506930/180833190-b02b1492-adcf-4b9f-a73e-50b71ee988b9.jpg)  
-  
+![Ex_1 6](https://user-images.githubusercontent.com/51506930/180852862-eb398e58-2cb0-4b86-a06e-09eb8948d493.jpg)  
+   
 Снова нажимаем в правой нижней части окна *Rewrite settings* кнопку *Add*, откроется окно *Rewrite Rule*  
 В графе *Type* выбираем **Modify Query Param**  
 В области *Match* вписываем данные:  
@@ -81,13 +81,13 @@ Task:
   *Value*: **36**  
 В области *Replace* вписываем данные:  
   *Name*: **age**  
-  *Value*: **int**  
+  *Value*: **37**  
 Нажимаем *Ok*  
-![Ex_1 7](https://user-images.githubusercontent.com/51506930/180834280-ea833e10-91bc-4760-b184-98517a0c7eb9.jpg)  
-
+![Ex_1 7](https://user-images.githubusercontent.com/51506930/180852934-dd014126-714a-4119-a452-389190aaf709.jpg)  
+  
 Заходим в **Postman**, выбираем **EP_1_1** из домашней работы **HW_Postman_1** и отправляем запрос нажав *Send*  
 В *Body* приходит ответ:  
-![Ex_1 1 Postman](https://user-images.githubusercontent.com/51506930/180841369-d01c5ea5-5a20-4cb1-b6c3-7680e1e798f5.jpg)
+![Ex_1 1 Postman](https://user-images.githubusercontent.com/51506930/180853053-0c7eb71e-5f1a-4325-a1f2-9c53f642c54e.jpg)  
   
 ### Функция **BreakPoint**
 В *Charles*, в меню нажимаем *Proxy*, далее из списка выбираем *Breakpoint Settings* и откроется *Breakpoint Settings*  
