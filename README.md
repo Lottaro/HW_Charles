@@ -31,8 +31,8 @@ request url params:
 
 response: 
 [
-    “Str”,
-    “Str”
+    “str”,
+    “int”
 ]
 
 Task:
@@ -60,16 +60,37 @@ Task:
 *Path*: **/get_method**  
  Нажимаем *Ok*  
 ![Ex_1 4](https://user-images.githubusercontent.com/51506930/180830942-d4c13bab-8052-4c0a-8e85-b089b8349790.jpg)  
-Жмем правой нижней части окна *Rewrite settings* нажимаем кнопку *Add*, откроется окно *Rewrite Rule*  
+Жмем в правой нижней части окна *Rewrite settings* кнопку *Add*, откроется окно *Rewrite Rule*  
 ![Ex_1 5](https://user-images.githubusercontent.com/51506930/180831686-7bfe72a9-8863-410a-9796-2536975baf10.jpg)  
 В графе *Type* выбираем **Modify Query Param**  
-В области *Match* вписываем данные:
+В области *Match* вписываем данные:  
   *Name*: **name**  
   *Value*: **Sergey**  
 В области *Replace* вписываем данные:  
   *Name*: **name**  
   *Value*: **str**  
 Нажимаем *Ok*  
-![Ex_1 6](https://user-images.githubusercontent.com/51506930/180833190-b02b1492-adcf-4b9f-a73e-50b71ee988b9.jpg)
-
+![Ex_1 6](https://user-images.githubusercontent.com/51506930/180833190-b02b1492-adcf-4b9f-a73e-50b71ee988b9.jpg)  
+Снова нажимаем в правой нижней части окна *Rewrite settings* кнопку *Add*, откроется окно *Rewrite Rule*  
+В графе *Type* выбираем **Modify Query Param**  
+В области *Match* вписываем данные:  
+  *Name*: **age**  
+  *Value*: **36**  
+В области *Replace* вписываем данные:  
+  *Name*: **age**  
+  *Value*: **int**  
+Нажимаем *Ok*  
+![Ex_1 7](https://user-images.githubusercontent.com/51506930/180834280-ea833e10-91bc-4760-b184-98517a0c7eb9.jpg)  
   
+Заходим в **Postman**, выбираем **EP_1_1** из домашней работы **HW_Postman_1** и отправляем запрос нажав *Send*  
+В *Body* приходит ответ:
+```json
+Заходим в **Postman**, выбираем **EP_1_1** из домашней работы **HW_Postman_1** и отправляем запрос нажав *Send*  
+В *Body* приходит ответ:  
+```json
+[
+    "str",
+    "int"
+]
+```
+```
